@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  background-image: url("https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg");
+  background-size: cover;
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+  user-select: all;
+}
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1 {
+  text-align: center;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+}
+.HEADING
+{
+    font-weight: bolder;
+    text-decoration: dotted;
+    color: black;
+}
+.stopwatch
+{
+    width: 50%;
+    max-width: 600 px;
+    /* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/background.png); */
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    margin: 5px auto 10px ;
+    box-shadow: black ;
+
+}
+.stopwatch h1
+{
+    margin-top: 60px;
+}
+.buttons
+
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttons img
+{
+    width: 50px;
+    margin: 0 20px;
+    cursor: crosshair;
+}
+.buttons img:nth-child(2)
+{
+    width: 80px;
+}
